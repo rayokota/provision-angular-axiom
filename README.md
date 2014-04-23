@@ -1,8 +1,8 @@
-# The Angular-Dynamo provisioner 
+# The Angular-Axiom provisioner 
 
-An [Ansible](http://www.ansible.com/home) provisioner for [AngularJS](http://angularjs.org) and [Dynamo](https://github.com/dynamo/dynamo).
+An [Ansible](http://www.ansible.com/home) provisioner for [AngularJS](http://angularjs.org) and [Axiom](https://github.com/tsujigiri/axiom).
 
-This provisioner installs the [Angular-Dynamo generator](https://github.com/rayokota/generator-angular-dynamo) and all prerequisites.  Currently it only supports Ubuntu 12.04.
+This provisioner installs the [Angular-Axiom generator](https://github.com/rayokota/generator-angular-axiom) and all prerequisites.  Currently it only supports Ubuntu 12.04.
 
 ## Installation
 
