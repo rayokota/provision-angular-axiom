@@ -1,0 +1,17 @@
+---
+- name: Install mysql-server
+  apt: pkg=mysql-server
+
+- name: Install libmysqlclient-dev
+  apt: pkg=libmysqlclient-dev
+
+- name: Install python-mysqldb
+  apt: pkg=python-mysqldb
+
+- name: Create user
+  mysql_user: name=yourapp password=changeme priv=*.*:ALL
+  sudo_user: root
+
+- name: Create database
+  mysql_db: name=yourapp
+  sudo_user: root
